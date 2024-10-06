@@ -9,7 +9,7 @@ export default {
       colors: {
         "blue-background": "#4782A1",
         "blue-font": "#004060"
-      }
+      },
     },
   },
   plugins: [],

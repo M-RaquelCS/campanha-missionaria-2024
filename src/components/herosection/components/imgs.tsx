@@ -5,13 +5,13 @@ export function ImagesHeroSection() {
   return (
     <div className="flex flex-row items-center">
       <img
-        src={peopleCollectingFoodImg}
-        className="bg-slate-400/10 w-[50%] h-36 rounded-3xl -mr-44 z-10"
+        src={angleChildrenHoldingHandsImg}
+        className="bg-slate-400/10 max-w-[45%] rounded-3xl -mr-[50%] z-10"
         alt=""
       />
       <img
-        src={angleChildrenHoldingHandsImg}
-        className="bg-slate-600 w-[95%] h-[520px] rounded-3xl ml-auto"
+        src={peopleCollectingFoodImg}
+        className="bg-slate-600 bg-auto bg-no-repeat bg-center max-w-[80%] rounded-3xl ml-auto -z-10"
         alt=""
       />
     </div>

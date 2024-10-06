@@ -2,7 +2,7 @@ import ArtImg from '/logo.jpg'
 
 export default function OurMission() {
   return (
-    <section>
+    <section id="about">
       <h2 className="text-3xl mb-6 mt-8">
         Nossa missão ad Gentes conduzida pela força do Espírito Santo
       </h2>
