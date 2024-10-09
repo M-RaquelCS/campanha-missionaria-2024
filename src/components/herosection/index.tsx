@@ -14,7 +14,7 @@ export function HeroSection() {
     <section>
       <Menubar />
 
-      <div className="flex max-md:flex-col max-md:items-center gap-4 mb-6">
+      <div className="flex max-lg:flex-col max-lg:items-center gap-4 mb-6">
         <h1 className="text-3xl font-light text-center max-w-[230px]">
           IDE, CONVIDAI A TODOS PARA O BANQUETE
         </h1>
