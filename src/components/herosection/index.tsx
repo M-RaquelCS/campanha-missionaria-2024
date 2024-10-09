@@ -3,6 +3,12 @@ import { CTA } from './components/cta'
 import { ImagesHeroSection } from './components/imgs'
 import { Leitura } from './components/leitura'
 
+import cmLogo from '/CM.png'
+import pomLogo from '/POM_Laranja.png'
+import cnbbLogo from '/CNBB.png'
+import paroquiaLogo from '/Paroquia.png'
+import dioceseLogo from '/Diocese-nobg.png'
+
 export function HeroSection() {
   return (
     <section>
@@ -18,11 +24,32 @@ export function HeroSection() {
         </p>
         <CTA />
 
-        <div className="flex items-start gap-1.5">
-          <div className="w-20 h-20 bg-zinc-500 rounded-md" />
-          <div className="w-20 h-20 bg-zinc-500 rounded-md" />
-          <div className="w-20 h-20 bg-zinc-500 rounded-md" />
-          <div className="w-20 h-20 bg-zinc-500 rounded-md" />
+        <div className="flex flex-wrap justify-center items-start gap-1.5">
+          <img
+            src={cmLogo}
+            alt="Logo da Campanha Missionária"
+            className="h-14 shadow-md bg-contain rounded-md"
+          />
+          <img
+            src={pomLogo}
+            alt="Logo da POM"
+            className="h-14 bg-white rounded-md shadow-md"
+          />
+          <img
+            src={cnbbLogo}
+            alt="Logo da CNBB"
+            className="h-14 bg-white rounded-md shadow-md"
+          />
+          <img
+            src={dioceseLogo}
+            alt="Logo da CNBB"
+            className="h-14 bg-white rounded-md shadow-md"
+          />
+          <img
+            src={paroquiaLogo}
+            alt="Logo da Paróquia São Pedro e São Paulo Apóstolos"
+            className="h-14 bg-white rounded-md shadow-md"
+          />
         </div>
       </div>
 

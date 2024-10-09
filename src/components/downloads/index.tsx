@@ -24,12 +24,12 @@ export default function Downloads() {
         {downloadItems.map((item, _) => (
           <li
             key={item.id} // Use the unique property of the item as the key
-            className="bg-sky-50/10 rounded-lg px-4 py-4 flex justify-between items-center mb-4"
+            className="bg-sky-500/10 rounded-lg px-4 py-4 font-medium flex justify-between items-center mb-4"
           >
             {item.name}
             <button
               type="button"
-              className="bg-sky-100/30 rounded-lg p-2"
+              className="bg-sky-500/20 rounded-lg p-2"
               onClick={() =>
                 handleDownloadArchive(item.file, `${item.name}.pdf`)
               }
