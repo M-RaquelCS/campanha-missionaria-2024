@@ -29,7 +29,11 @@ export default function OurMission() {
           <strong>cada discípulo missionário recebe de Jesus</strong>, de
           convidar todos para o banquete do reino.
         </p>
-        <img src={ArtImg} className="rounded-xl" alt="" />
+        <img
+          src={ArtImg}
+          className="rounded-xl mx-auto lg:max-w-[80%] "
+          alt=""
+        />
         <div>
           <h4 className="text-2xl mt-3 mb-3">Entendendo nossa arte</h4>
           <ul>
