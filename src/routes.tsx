@@ -6,7 +6,7 @@ export function Router() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
-      <Route path="/programacao" element={<Schedule />} />
+      <Route path="/schedule" element={<Schedule />} />
     </Routes>
   )
 }

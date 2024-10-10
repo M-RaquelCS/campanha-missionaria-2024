@@ -12,7 +12,7 @@ export default function Schedule() {
         <p className="font-light">Acompanhe nosso calendário de eventos</p>
       </header>
 
-      <div className="flex gap-2 p-4 border rounded-xl ">
+      <div className="flex flex-col lg:flex-row gap-2 p-4 border rounded-xl mt-4 ">
         <div className="border-e-2 pe-2">
           <p className="text-center text-gray-700">Domingo</p>
           <strong className="text-3xl">20/10</strong>
