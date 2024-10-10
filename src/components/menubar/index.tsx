@@ -4,10 +4,10 @@ import { Menu } from 'lucide-react'
 
 export function Menubar() {
   return (
-    <nav className="flex items-center justify-between gap-y-3 mb-4 py-3 relative">
+    <nav className="flex items-center justify-between gap-y-3 mb-4 lg:mb-8 py-3 relative">
       <a href="/" className="bg-slate-200 rounded-xl">
         <img
-          className="max-h-11 max-w-24 rounded-xl"
+          className="max-h-11 rounded-xl lg:max-h-14"
           src={logoImg}
           alt="Logo"
         />
@@ -27,7 +27,7 @@ export function Menubar() {
           Downloads
         </a>
         <a
-          href="/"
+          href="/programacao"
           className="leading-10 underline-offset-4 px-2 py-[2px] lg:p-2.5 rounded-md hover:bg-sky-400/20"
         >
           Programação
@@ -69,7 +69,7 @@ export function Menubar() {
               </DropdownMenu.Item>
               <DropdownMenu.Item asChild>
                 <a
-                  href="/"
+                  href="/programacao"
                   className="leading-10 underline-offset-4 px-2 py-[2px] rounded-md hover:bg-sky-400/20"
                 >
                   Programação
