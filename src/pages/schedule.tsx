@@ -1,7 +1,7 @@
 import { Clock7 } from 'lucide-react'
 import { Menubar } from '../components/menubar'
 
-export default function Schedule() {
+export function Schedule() {
   return (
     <>
       <Menubar />
