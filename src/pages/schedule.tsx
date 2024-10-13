@@ -749,9 +749,6 @@ export function Schedule() {
                     <Clock8 size={18} color="#FFFF" fill="#6b7280" />
                     08:30 às 16:30
                   </span>
-                  <span className="flex items-center gap-1">
-                    <MapPin size={20} color="#FFFF" fill="#6b7280" />
-                  </span>
                 </div>
                 <span className="font-semibold text-wrap">
                   Encontrão Missionário (Palestras e Oficinas com todos os
