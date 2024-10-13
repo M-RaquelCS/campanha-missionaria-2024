@@ -662,10 +662,7 @@ export function Schedule() {
                 <div>
                   <span className="flex items-center gap-1">
                     <Clock4 size={18} color="#FFFF" fill="#6b7280" />
-                    16:00
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <MapPin size={20} color="#FFFF" fill="#6b7280" />
+                    17:00
                   </span>
                 </div>
                 <span className="font-semibold text-wrap">
@@ -680,7 +677,7 @@ export function Schedule() {
                   </span>
                   <span className="flex items-center gap-1">
                     <MapPin size={20} color="#FFFF" fill="#6b7280" />
-                    Oratório São Pedro e São Paulo
+                    Matriz São Pedro e São Paulo
                   </span>
                   <span className="flex items-center gap-1">
                     <MapPin size={20} color="#FFFF" fill="#6b7280" />
