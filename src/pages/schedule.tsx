@@ -199,11 +199,16 @@ export function Schedule() {
                   </span> */}
                   <span className="flex items-center gap-1">
                     <MapPin size={20} color="#FFFF" fill="#6b7280" />
-                    Colégio Diocesano e demais Colégios católicos particulares
+                    Colégio Diocesano
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <MapPin size={20} color="#FFFF" fill="#6b7280" />
+                    Demais Colégios católicos particulares
                   </span>
                 </div>
                 <span className="font-semibold text-wrap">
-                  Visita no Colégio Diocesano e demais Colégios particulares
+                  Visita no Colégio Diocesano e demais Colégios católicos
+                  particulares
                 </span>
               </li>
               <li className="grid grid-cols-1 lg:grid-cols-[35%_65%] lg:items-start pb-2 lg:gap-12">
