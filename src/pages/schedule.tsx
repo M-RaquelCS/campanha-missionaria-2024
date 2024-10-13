@@ -199,7 +199,7 @@ export function Schedule() {
                   </span> */}
                   <span className="flex items-center gap-1">
                     <MapPin size={20} color="#FFFF" fill="#6b7280" />
-                    Colégio Diocesano e demais Colégios particulares
+                    Colégio Diocesano e demais Colégios católicos particulares
                   </span>
                 </div>
                 <span className="font-semibold text-wrap">
