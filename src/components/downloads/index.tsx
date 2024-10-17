@@ -1,11 +1,29 @@
 import { Download } from 'lucide-react'
 
 import santinhoPaolo from '../../assets/archive_to_downloads/Santinho_Paolo.pdf'
+import roteiroVisitaMissionaria from '../../assets/archive_to_downloads/ROTEIRO_DE_VISITA_MISSIONÁRIA.pdf'
+import roteiroVisitaMissionariaEscolas from '../../assets/archive_to_downloads/ROTEIRO_DE_ENCONTRO_MISSIONÁRIO_NAS_ESCOLAS.pdf'
+import roteiroVisitaMissionariaIAM from '../../assets/archive_to_downloads/Roteiro_para_visitas_missionárias_com_a_IAM.pdf'
 
 export default function Downloads() {
   const downloadItems = [
     {
       id: 1,
+      name: 'Roteiro de Visita Missionária',
+      file: roteiroVisitaMissionaria,
+    },
+    {
+      id: 2,
+      name: 'Roteiro de Visita Missionária nas Escolas católicas',
+      file: roteiroVisitaMissionariaEscolas,
+    },
+    {
+      id: 3,
+      name: 'Roteiro de Visita Missionária com a IAM',
+      file: roteiroVisitaMissionariaIAM,
+    },
+    {
+      id: 4,
       name: 'Santinho Paolo Manna',
       file: santinhoPaolo,
     },

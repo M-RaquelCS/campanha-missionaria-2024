@@ -172,7 +172,7 @@ export function Schedule() {
                   </span>
                 </div>
                 <span className="font-semibold text-wrap">
-                  Oração, benção de envio e café
+                  Oração e benção de envio
                 </span>
               </li>
               <li className="grid grid-cols-1 lg:grid-cols-[35%_65%] lg:items-start border-b pb-2 lg:gap-12">
@@ -249,8 +249,8 @@ export function Schedule() {
                     Matriz São Pedro e São Paulo
                   </span>
                 </div>
-                <span className="font-semibold">
-                  Oração, benção de envio e café
+                <span className="font-semibold text-wrap">
+                  Oração e benção de envio
                 </span>
               </li>
               <li className="grid grid-cols-1 lg:grid-cols-[35%_65%] lg:items-start border-b pb-2 lg:gap-12">
@@ -307,8 +307,8 @@ export function Schedule() {
                     Matriz São Pedro e São Paulo
                   </span>
                 </div>
-                <span className="font-semibold">
-                  Oração, benção de envio e café
+                <span className="font-semibold text-wrap">
+                  Oração e benção de envio
                 </span>
               </li>
               <li className="grid grid-cols-1 lg:grid-cols-[35%_65%] lg:items-start border-b pb-2 lg:gap-12">
@@ -347,11 +347,11 @@ export function Schedule() {
                   </span>
                   <span className="flex items-center gap-1">
                     <MapPin size={20} color="#FFFF" fill="#6b7280" />
-                    Oratório do São Pedro e São Paulo
+                    Matriz São Pedro e São Paulo
                   </span>
                 </div>
                 <span className="font-semibold text-wrap">
-                  Missa e Benção da Saúde
+                  Missa e Benção da Saúde com confissões individuais
                 </span>
               </li>
               <li className="grid grid-cols-1 lg:grid-cols-[35%_65%] lg:items-start pb-2 lg:gap-12">
@@ -487,13 +487,13 @@ export function Schedule() {
                     <Clock7 size={18} color="#FFFF" fill="#6b7280" />
                     07:00
                   </span>
-                  {/* <span className="flex items-center gap-1">
+                  <span className="flex items-center gap-1">
                     <MapPin size={20} color="#FFFF" fill="#6b7280" />
-                    Oratório São Pedro e São Paulo
-                  </span> */}
+                    Matriz São Pedro e São Paulo
+                  </span>
                 </div>
-                <span className="font-semibold">
-                  Oração, benção de envio e café
+                <span className="font-semibold text-wrap">
+                  Oração e benção de envio
                 </span>
               </li>
               <li className="grid grid-cols-1 lg:grid-cols-[35%_65%] lg:items-start border-b pb-2 lg:gap-12">
@@ -577,7 +577,7 @@ export function Schedule() {
                   Missa ou Celebração da Palavra
                 </span>
               </li>
-              <li className="grid grid-cols-1 lg:grid-cols-[35%_65%] lg:items-start border-b pb-2 lg:gap-12">
+              <li className="grid grid-cols-1 lg:grid-cols-[35%_65%] lg:items-start pb-2 lg:gap-12">
                 <div>
                   <span className="flex items-center gap-1">
                     <Clock8 size={18} color="#FFFF" fill="#6b7280" />
