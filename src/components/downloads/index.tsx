@@ -1,9 +1,9 @@
 import { Download } from 'lucide-react'
 
 import santinhoPaolo from '../../assets/archive_to_downloads/Santinho_Paolo.pdf'
-import roteiroVisitaMissionaria from '../../assets/archive_to_downloads/ROTEIRO_DE_VISITA_MISSIONÁRIA.pdf'
-import roteiroVisitaMissionariaEscolas from '../../assets/archive_to_downloads/ROTEIRO_DE_ENCONTRO_MISSIONÁRIO_NAS_ESCOLAS.pdf'
-import roteiroVisitaMissionariaIAM from '../../assets/archive_to_downloads/Roteiro_para_visitas_missionárias_com_a_IAM.pdf'
+import roteiroVisitaMissionaria from '../../assets/archive_to_downloads/roteiro_visita.pdf'
+import roteiroVisitaMissionariaEscolas from '../../assets/archive_to_downloads/roteiro_visita_escolas.pdf'
+import roteiroVisitaMissionariaIAM from '../../assets/archive_to_downloads/IAM.pdf'
 
 export default function Downloads() {
   const downloadItems = [
