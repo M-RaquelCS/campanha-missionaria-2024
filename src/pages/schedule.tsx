@@ -697,7 +697,7 @@ export function Schedule() {
                 <div>
                   <span className="flex items-center gap-1">
                     <Clock10 size={18} color="#FFFF" fill="#6b7280" />
-                    20:00 às 23:00
+                    17:00 às 23:00
                   </span>
                   <span className="flex items-center gap-1">
                     <MapPin size={20} color="#FFFF" fill="#6b7280" />
